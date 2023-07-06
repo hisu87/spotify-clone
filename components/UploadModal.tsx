@@ -62,7 +62,7 @@ const UploadModal = () => {
         error: songError 
       } = await supabaseClient
         .storage
-        .from('songs')
+        .from('public/songs')
         .upload(`song-${values.title}-${uniqueID}`, songFile, {
           cacheControl: '3600',
           upsert: false
@@ -79,7 +79,7 @@ const UploadModal = () => {
         error: imageError
       } = await supabaseClient
         .storage
-        .from('images')
+        .from('public/images')
         .upload(`image-${values.title}-${uniqueID}`, imageFile, {
           cacheControl: '3600',
           upsert: false
