@@ -6,8 +6,6 @@ For DEMO, use [Stripe Testing Cards](https://stripe.com/docs/testing)
 
 This is a repository for a Full Stack Spotify Clone with Next.js 13.4 App Router: React, Tailwind, Supabase, PostgreSQL, Stripe
 
-[VIDEO TUTORIAL](https://youtu.be/2aeMRB8LL4o)
-
 Key Features:
 
 - Song upload
@@ -60,7 +58,7 @@ STRIPE_WEBHOOK_SECRET=
 ```
 
 ### Add SQL Tables
-Use `database.sql` file, create songs and liked_songs table (there is a video tutorial)
+Use `database.sql` file, create songs and liked_songs table 
 
 ### Start the app
 
